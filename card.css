@@ -1,0 +1,166 @@
+
+
+.card,
+.card2,
+.card3,
+.card4,
+.card5{
+  background-color: pink;
+  box-shadow: 0px 8px 8px gray;
+  position: absolute;
+  margin-left: 300px;
+  top: 200px;
+  width: 700px;
+  height: 300px;
+}
+
+.card2{
+  position: relative;
+  top: 800px;
+  background-color: silver;
+  
+}
+
+
+.card3{
+  position: relative;
+  top: 1200px;
+  background-color: pink; 
+}
+
+.card4{
+  position: relative;
+  top: 1600px;
+  background-color: silver; 
+}
+
+.card5{
+  position: relative;
+  top: 2000px;
+  background-color: pink;
+}
+
+.quest h1,
+.quest2 h1
+.quest3 h1
+.quest4 h1
+.quest5 h1{
+  width: 300px;
+  text-align: center;
+}
+
+.card h3,
+.card2 h3,
+.card3 h3,
+.card4 h3,
+.card5 h3{
+  position: absolute;
+  margin-left: 30px;
+}
+
+.next,
+.next2,
+.next3,
+.next4,
+.next5{
+  float: right;
+}
+
+.next button,
+.next2 button,
+.next3 button,
+.next4 button,
+.next5 button{
+  background-color: white;
+  color: black;
+  width: 90px;
+  height: 30px;
+  margin-right: 200px;
+}
+
+
+
+.clock{
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  color: black;
+  font-size: 20px;
+  font-family: Arial;
+  right: 0px;
+  bottom: 20px;
+  background-color: purple;
+}
+.slideshow-container {
+  max-width: 100px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
